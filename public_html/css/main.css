@@ -1,0 +1,160 @@
+html
+{
+		min-height: 100vh;
+}
+body
+{
+    background-color:       rgb(247, 247, 247);
+    margin-left: 200px !important; /* Same as the width of the sidenav */
+		padding: 0px 10px;
+		min-height: 100vh;
+}
+#login-controls 
+{
+    margin:                 0 auto;
+    border:                 1px solid #ccc;
+    padding:                50px;
+    width:                  300px;
+}.error-text 
+{
+    color:                  #f00;
+}
+.login-image
+{
+		background-color: #999;
+}
+.error
+{
+		color: red;
+}
+
+/* Sidebar */
+/* Style the sidebar - fixed full height */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+/* CSS for the calender */
+.A {	
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			    10px;
+	font-style: 			normal;
+	line-height: 			normal;
+	font-weight: 			bold;
+	font-variant: 			normal;
+	text-transform: 		none;
+	text-decoration: 		none;
+	vertical-align: 		middle;
+	text-align: 			center;
+	color:				    #000;/* Replaced */
+
+}
+
+.sel {	
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			    10px;
+	font-style: 			normal;
+	line-height: 			normal;
+	font-weight: 			normal;
+	font-variant: 			normal;
+	text-transform: 		none;
+	text-decoration: 		none;
+	text-align: 			center;
+	vertical-align: 		middle; 
+	cursor: 			    default;
+	color:				    #000;/* Replaced */
+	background-color:		#999;/* Replaced */
+}
+.event {
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			    10px;
+	font-style: 			normal;
+	line-height: 			normal;
+	font-weight: 			normal;
+	font-variant: 			normal;
+	text-transform: 		none;
+	text-decoration: 		none;
+	cursor: 			    default;
+	vertical-align: 		middle;
+	text-align: 			center;
+	color:				    #000;/* Replaced */
+	background-color:		#EEE;/* Replaced */
+}
+
+.empty {
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			    10px;
+	font-style: 			normal;
+	line-height: 			normal;
+	font-weight: 			normal;
+	font-variant: 			normal;
+	text-transform: 		none;
+	text-decoration: 		none;
+	cursor:				    default;
+	vertical-align: 		middle;
+	text-align: 			center;
+	color:				    #FFF; /* Replaced */
+	background-color:		#FFF;/* Replaced */
+}
+.today {
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			    10px;
+	font-style: 			normal;
+	line-height: 			normal;
+	font-weight: 			normal;
+	font-variant: 			normal;
+	text-transform: 		none;
+	text-decoration: 		none;
+	cursor: 			    default;
+	vertical-align: 		middle;
+	text-align: 			center;
+	color:				    #FFFFFF;/* Replaced */
+	background-color:		rgb(125, 165, 240);/* Replaced */
+}
+
+.table {
+	border-style: 			none;
+ 	/*border-collapse: 		collapse;*/
+	empty-cells: 			hide;
+}
+
+.td {	
+	font-family: 			Verdana, Arial, Helvetica, sans-serif;
+	font-size: 			    10px;
+	font-style: 			normal;
+	line-height: 			normal;
+	font-weight: 			normal;
+	font-variant: 			normal;
+	text-transform: 		none;
+	text-decoration: 		none;
+	text-align: 			center;
+	vertical-align: 		middle; 
+}
+/* Table links */
+td a { 
+	display: block; 
+	border: 1px solid black;
+	padding: 16px; 
+}
