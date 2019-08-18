@@ -6,10 +6,10 @@
 */
 $db = array(
 	'dsn'	=> '',
-	'hostname' => '10.169.0.133',
-	'username' => 'galeadig_sims',
-	'password' => 'I8L82Day',
-	'database' => 'galeadig_z1jm',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 );
 
 /*
